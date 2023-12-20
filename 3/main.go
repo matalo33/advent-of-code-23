@@ -16,7 +16,7 @@ type Bit struct {
 }
 
 func main() {
-	file, _ := os.ReadFile(("input.txt"))
+	file, _ := os.ReadFile("input.txt")
 
 	schematic := parseInput(string(file))
 
